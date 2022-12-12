@@ -1,0 +1,20 @@
+.card-service {
+    text-align: center;
+}
+
+.card-service img {
+    margin: 50px;
+}
+
+.card-head {
+    padding: 10px;
+}
+
+.card-social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.card-social-icons img {
+    margin: 30px 15px 15px 15px;
+}

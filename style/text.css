@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header-menu-items a {
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.banner-head-description {
+    font-size: 18px;
+    color: white;
+}
+
+.card-head {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.card-description {
+    font-weight: lighter;
+    font-size: 24px;
+    color: white;
+}
+
+.banner-team .banner-head .banner-head-description,
+.banner-team h2,
+.banner-team .card-head,
+.banner-team .card-description {
+    color: #434545;
+}
+
+.banner-skills .banner-head .banner-head-description,
+.banner-skills h2,
+.banner-skills .card-head,
+.banner-skills .card-description {
+    color: #434545;
+}
+
+.card-team-position {
+    color: #0cd3ed;
+}
+
+@media (max-width: 576px) {
+    .menu li {
+        font-size: 21px;
+    }
+}
+
+.banner-portfolio .banner-head .banner-head-description,
+.banner-portfolio h2,
+.banner-portfolio .card-head,
+.banner-portfolio .card-description {
+    color: #434545;
+}
+
+.grid-item2 {
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+}
+
+.grid-item3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.grid-item4 {
+    color: #fae493;
+}
+
+footer a {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #3e2093;
+}

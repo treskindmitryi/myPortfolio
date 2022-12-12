@@ -1,0 +1,301 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.banner-main {
+    display: flex;
+    height: 100vh;
+    background-color: #ac47ad;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.height-center {
+    margin-top: calc(50vh - 240px);
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.banner-cards {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.banner-service {
+    background-color: #1ddba2;
+}
+
+.banner-head h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.underline {
+    display: flex;
+    justify-content: center;
+}
+
+.underlile-item {
+    width: 100px;
+    height: 3px;
+    background-color: #0e9e73;
+}
+
+.banner-head-description {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.banner-team {
+    background-color: #f5f7f7;
+}
+
+.snw:hover {
+    opacity: 0.5;
+}
+
+#team-underlile-item {
+    background-color: #434545;
+}
+
+.card-team-position {
+    margin: 10px 0;
+}
+
+.card-team-img {
+    border-radius: 50%;
+}
+
+.banner-portfolio {
+    background-color: #fae493;
+}
+
+.banner-reviews {
+    background-color: #f0438b;
+}
+
+
+.banner-reviews .underlile-item {
+    background-color: white;
+}
+
+.card-reviews {
+    display: grid;
+    padding: 30px 50px;
+    align-items: center;
+
+    grid-template-areas:
+        "A A A A   B B B B"
+        "A A A A   C C C C"
+        "A A A A   D D D D";
+}
+
+.grid-item1 {
+    grid-area: A;
+    margin-right: 20px;
+}
+
+.grid-item2 {
+    grid-area: B;
+}
+
+.grid-item3 {
+    grid-area: C;
+    padding: 10px 0;
+}
+
+.grid-item4 {
+    grid-area: D;
+}
+
+.banner-feedback {
+    background-color: #6049f5;
+}
+
+.banner-feedback .underline {
+    margin-bottom: 100px;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+.container-form-left-side {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form-left-side:before {
+    content: "";
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    background-color: #afafb6;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container-form-right-side {
+    width: 75%;
+    margin-left: 75px;
+}
+
+.container-form-details {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.container-form-details img {
+    margin-bottom: 10px;
+}
+
+.container-form-topic {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.container-form-description {
+    font-size: 16px;
+    color: #afafb6;
+}
+
+.container-form-topic-text {
+    font-size: 23px;
+    font-weight: 600;
+    color: #3e2093;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.form-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #f0f1f8;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.input-box textarea {
+    resize: none;
+    padding: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.message-box {
+    min-height: 110px;
+}
+
+.form-submit {
+    display: inline-block;
+}
+
+.form-submit input[type="submit"] {
+    color: #fff;
+    background-color: #3e2093;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.form-submit input[type="submit"]:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+input:focus {
+    outline: none;
+}
+
+form>div input[type="text"]:valid,
+form>div input[type="email"]:valid,
+form>div input[type="phone"]:valid {
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+form>div input[type="text"]:invalid:not(:placeholder-shown),
+form>div input[type="email"]:invalid:not(:placeholder-shown),
+form>div input[type="phone"]:invalid:not(:placeholder-shown) {
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #3c4ef0;
+}
+
+footer div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media(max-width: 768px) {
+    .content {
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .container-form-left-side {
+        margin-top: 50px;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container-form-details {
+        margin-right: 20px;
+    }
+
+    .container-form-details:last-child {
+        margin-right: 0;
+    }
+
+    .container-form-left-side::before {
+        display: none;
+    }
+
+    .container-form-right-side {
+        width: 100%;
+        margin-left: 0;
+    }
+}
